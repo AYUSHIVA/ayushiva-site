@@ -241,3 +241,9 @@ font-size:26px;
 }
 
 }
+
+.hero-content{
+opacity:0;
+transform:translateY(40px);
+transition:1s;
+}
