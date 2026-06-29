@@ -400,3 +400,43 @@ transform:scale(1.05);
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 /* ABOUT SECTION END */
+.why-choose {
+  padding: 60px 20px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.why-card {
+  background: #f7fff9;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  transition: 0.3s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-8px);
+}
+
+.why-card .icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.why-card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #222;
+}
+
+.why-card p {
+  font-size: 14px;
+  color: #555;
+}
